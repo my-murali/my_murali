@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('MURALI')}}"
+    schema: mur_source
+
+
+    tables:
+      - name: emp
+      - name: dept
+      - name: raw_order
